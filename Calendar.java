@@ -40,11 +40,11 @@ public class Main {
 			}			
 			System.out.println();
 			
-			//leave spaces accordingly
+			//skips the previous days
 			for(int j=0;j<lastDay;j++)
 				System.out.print("    ");
 			
-			//print dates
+			//print dates accordingly
 			for(int j=1;j<=nOfDays;j++) {
 				if((j-1+lastDay)%7==0 && j!=1) {
 					System.out.println();
